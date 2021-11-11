@@ -24,7 +24,7 @@ This will output a file named "output.ppm" by default, that can be visualized us
 
 ## Results
 The results obtained with my implementation of EDACRT are as following:
-![alt text]https://github.com/iradab/Efficient-Divide-And-Conquer-Ray-Tracing/blob/main/EDACRT.png)
+![alt text](https://github.com/iradab/Efficient-Divide-And-Conquer-Ray-Tracing/blob/main/EDACRT.png)
 
 In order to evaluate the speed up obtained by the EDACRT, at first the ray tracing using naïve approach 
 was used. Both of the images are of size 480 * 270. The first image with 518.400 rays and 1200 triangles 
