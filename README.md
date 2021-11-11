@@ -31,12 +31,15 @@ The results obtained with my implementation of EDACRT are as following:
 In order to evaluate the speed up obtained by the EDACRT, the results were compared with naive ray tracing:
 
 * The first image (with 518.400 rays and 1200 triangles)
+
 was ray traced in 33 s with naïve ray tracing VS 17 s with EDACRT. 
+
 By increasing the 
 number of rays per pixel from 4 to 8, one would obtain more than a million rays – which would take 57 s
 with naïve approach and 26 seconds with EDACRT for the same number of primitives.
 
 * The second image (with 518.400 rays and 29983 triangles)
+
 was ray traced in  526 s with naïve ray tracing VS 172s with EDACRT. 
 
 By results obtained with several tests, it is possible to observe that by increasing the number of rays and 
