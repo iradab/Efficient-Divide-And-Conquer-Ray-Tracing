@@ -24,14 +24,21 @@ This will output a file named "output.ppm" by default, that can be visualized us
 
 ## Results
 The results obtained with my implementation of EDACRT are as following:
+
+
 ![alt text](https://github.com/iradab/Efficient-Divide-And-Conquer-Ray-Tracing/blob/main/EDACRT.png)
 
-In order to evaluate the speed up obtained by the EDACRT, at first the ray tracing using naïve approach 
-was used. Both of the images are of size 480 * 270. The first image with 518.400 rays and 1200 triangles 
-was ray traced in 33 s with naïve ray tracing, whereas with EDACRT it took only 17 s. By increasing the 
+In order to evaluate the speed up obtained by the EDACRT, the results were compared with naive ray tracing:
+
+* The first image (with 518.400 rays and 1200 triangles)
+was ray traced in 33 s with naïve ray tracing VS 17 s with EDACRT. 
+By increasing the 
 number of rays per pixel from 4 to 8, one would obtain more than a million rays – which would take 57 s
-with naïve approach and 26 seconds with EDACRT for the same number of primitives. For the second 
-image(with 518400 rays and 29983 primitives) the running time was 172s and 526 s, respectively.
+with naïve approach and 26 seconds with EDACRT for the same number of primitives.
+
+* The second image (with 518.400 rays and 29983 triangles)
+was ray traced in  526 s with naïve ray tracing VS 172s with EDACRT. 
+
 By results obtained with several tests, it is possible to observe that by increasing the number of rays and 
 primitives, the speedup from naïve ray tracing to EDACRT increases. Since in EDACRT the data 
 structure is not stored, the memory usage of the algorithm is not of main interest to make a comparison.
