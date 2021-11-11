@@ -1,4 +1,4 @@
-# INF584 - Final Project
+# Efficient Divide-And-Conquer Ray Tracing using Ray Sampling
 
 This project was a final project for INF584 - Image Synthesis course at Ecole Polytechnique de Paris. This project is implementation of the paper **Efficient Divide-And-Conquer Ray Tracing using Ray Sampling**
 
