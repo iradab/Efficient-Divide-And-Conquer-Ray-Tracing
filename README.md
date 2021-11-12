@@ -2,6 +2,7 @@
 
 This project was a final project for INF584 - Image Synthesis course at Ecole Polytechnique de Paris. This project is implementation of the paper by K.Nabata [Efficient Divide-And-Conquer Ray Tracing using Ray Sampling](http://nishitalab.org/user/UEI/publication/Nabata_HPG2013.pdf)
 
+The details of my implementation are described in the [report](https://github.com/iradab/Efficient-Divide-And-Conquer-Ray-Tracing/blob/main/Final_Report.pdf). 
 
 Below are instruction on Windows. We assume CMake to be installed. On MS Windows, once CMake is executed, one can open the solution (.sln) file located in the build directory.
 
